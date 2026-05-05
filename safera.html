@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -8,7 +7,6 @@
 <meta name="description" content="Aula ao vivo gratuita em 21 de Maio às 19:30. Da repetição automática à pronúncia autônoma e refinada do sânscrito aplicado ao Mantrayoga. Com Yuri Vāmadeva Śiva.">
 
 <!-- Open Graph for WhatsApp/social sharing -->
-
 <meta property="og:type" content="website">
 <meta property="og:title" content="Método S.A.F.E.R.A · Aula ao Vivo · 21 de Maio">
 <meta property="og:description" content="Da repetição automática à pronúncia autônoma e refinada do sânscrito aplicado ao Mantrayoga. Aula gratuita com Yuri Vāmadeva Śiva.">
@@ -37,301 +35,301 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; }
 
 body {
-font-family: 'Cardo', Georgia, serif;
-background: var(--parchment);
-color: var(--ink);
-line-height: 1.65;
-font-size: 18px;
-overflow-x: hidden;
+  font-family: 'Cardo', Georgia, serif;
+  background: var(--parchment);
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 18px;
+  overflow-x: hidden;
 }
 
 body::before {
-content: '';
-position: fixed;
-inset: 0;
-background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
-opacity: 0.35;
-pointer-events: none;
-z-index: 1;
-mix-blend-mode: multiply;
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: multiply;
 }
 
 main { position: relative; z-index: 2; }
 
 h1, h2, h3, h4 {
-font-family: 'Cormorant Garamond', Georgia, serif;
-font-weight: 500;
-letter-spacing: -0.01em;
-line-height: 1.1;
-color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--ink);
 }
 
 .devanagari { font-family: 'Tiro Devanagari Sanskrit', serif; }
 
 .eyebrow {
-font-family: 'Cardo', serif;
-font-size: 0.78rem;
-letter-spacing: 0.32em;
-text-transform: uppercase;
-color: var(--saffron);
-font-weight: 700;
-display: inline-flex;
-align-items: center;
-gap: 1rem;
+  font-family: 'Cardo', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .eyebrow::before, .eyebrow::after {
-content: '';
-width: 28px;
-height: 1px;
-background: var(--saffron);
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--saffron);
 }
 
 .eyebrow.left::before { display: none; }
 
 /* === DARK HERO BLOCK === */
 .hero-block {
-background:
-radial-gradient(ellipse at 25% 20%, rgba(217, 101, 30, 0.18) 0%, transparent 55%),
-radial-gradient(ellipse at 80% 90%, rgba(201, 166, 86, 0.08) 0%, transparent 50%),
-linear-gradient(180deg, var(--maroon) 0%, var(--ink-deep) 100%);
-color: var(--cream);
-position: relative;
-overflow: hidden;
+  background:
+    radial-gradient(ellipse at 25% 20%, rgba(217, 101, 30, 0.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 90%, rgba(201, 166, 86, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, var(--maroon) 0%, var(--ink-deep) 100%);
+  color: var(--cream);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-block::after {
-content: '';
-position: absolute;
-inset: 0;
-background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
-opacity: 0.15;
-mix-blend-mode: overlay;
-pointer-events: none;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.15;
+  mix-blend-mode: overlay;
+  pointer-events: none;
 }
 
 .hero-block > * { position: relative; z-index: 2; }
 
 header {
-padding: 1.5rem 2rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-bottom: 1px solid rgba(201, 166, 86, 0.18);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(201, 166, 86, 0.18);
 }
 
 .brand {
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.05rem;
-font-weight: 600;
-letter-spacing: 0.18em;
-color: var(--cream);
-text-transform: uppercase;
-display: flex;
-align-items: center;
-gap: 0.7rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--cream);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
 }
 
 .brand-mark {
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 1.5rem;
-color: var(--saffron-bright);
-letter-spacing: 0;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 1.5rem;
+  color: var(--saffron-bright);
+  letter-spacing: 0;
 }
 
 .brand-name em {
-font-style: italic;
-font-weight: 400;
-color: var(--gold-soft);
-text-transform: none;
-letter-spacing: 0.05em;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gold-soft);
+  text-transform: none;
+  letter-spacing: 0.05em;
 }
 
 .header-meta {
-font-size: 0.72rem;
-letter-spacing: 0.28em;
-text-transform: uppercase;
-color: rgba(212, 184, 114, 0.7);
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(212, 184, 114, 0.7);
 }
 
 .hero {
-padding: 5rem 2rem 6rem;
-max-width: 1280px;
-margin: 0 auto;
-position: relative;
+  padding: 5rem 2rem 6rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .hero-grid {
-display: grid;
-grid-template-columns: 1.3fr 1fr;
-gap: 5rem;
-align-items: center;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 5rem;
+  align-items: center;
 }
 
 .hero-devanagari {
-position: absolute;
-top: -2rem;
-right: -3rem;
-font-size: 26rem;
-color: var(--saffron);
-opacity: 0.07;
-font-family: 'Tiro Devanagari Sanskrit', serif;
-line-height: 1;
-pointer-events: none;
-z-index: 0;
+  position: absolute;
+  top: -2rem;
+  right: -3rem;
+  font-size: 26rem;
+  color: var(--saffron);
+  opacity: 0.07;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .hero-content { position: relative; z-index: 1; }
 
 .hero h1 {
-font-size: clamp(2.2rem, 4.8vw, 4.2rem);
-font-weight: 400;
-margin: 1.8rem 0 1.5rem;
-letter-spacing: -0.02em;
-color: var(--cream);
-line-height: 1.08;
+  font-size: clamp(2.2rem, 4.8vw, 4.2rem);
+  font-weight: 400;
+  margin: 1.8rem 0 1.5rem;
+  letter-spacing: -0.02em;
+  color: var(--cream);
+  line-height: 1.08;
 }
 
 .hero h1 em {
-font-style: italic;
-color: var(--saffron-bright);
-font-weight: 500;
+  font-style: italic;
+  color: var(--saffron-bright);
+  font-weight: 500;
 }
 
 .hero-sub {
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.5rem;
-font-style: italic;
-color: var(--gold-soft);
-margin: -0.5rem 0 1.5rem;
-line-height: 1.35;
-font-weight: 400;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--gold-soft);
+  margin: -0.5rem 0 1.5rem;
+  line-height: 1.35;
+  font-weight: 400;
 }
 
 .hero-lede {
-font-size: 1.1rem;
-color: rgba(250, 245, 232, 0.78);
-max-width: 540px;
-margin-bottom: 2.5rem;
-line-height: 1.55;
+  font-size: 1.1rem;
+  color: rgba(250, 245, 232, 0.78);
+  max-width: 540px;
+  margin-bottom: 2.5rem;
+  line-height: 1.55;
 }
 
 .live-meta {
-display: flex;
-gap: 2.5rem;
-padding: 1.5rem 0;
-border-top: 1px solid rgba(201, 166, 86, 0.25);
-border-bottom: 1px solid rgba(201, 166, 86, 0.25);
-margin-bottom: 2.5rem;
+  display: flex;
+  gap: 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(201, 166, 86, 0.25);
+  border-bottom: 1px solid rgba(201, 166, 86, 0.25);
+  margin-bottom: 2.5rem;
 }
 
 .live-meta-item .label {
-font-size: 0.7rem;
-letter-spacing: 0.25em;
-text-transform: uppercase;
-color: rgba(212, 184, 114, 0.7);
-margin-bottom: 0.4rem;
-font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(212, 184, 114, 0.7);
+  margin-bottom: 0.4rem;
+  font-weight: 700;
 }
 
 .live-meta-item .value {
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.4rem;
-color: var(--cream);
-font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--cream);
+  font-weight: 500;
 }
 
 .live-meta-item .value strong {
-color: var(--saffron-bright);
-font-weight: 600;
-font-size: 1.7rem;
-font-style: italic;
+  color: var(--saffron-bright);
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-style: italic;
 }
 
 /* === CTA CARD === */
 .cta-card {
-background: var(--cream);
-padding: 3rem 2.5rem;
-border: 1px solid rgba(201, 166, 86, 0.5);
-position: relative;
-text-align: center;
-box-shadow:
-0 0 0 1px rgba(0, 0, 0, 0.05),
-0 30px 60px -15px rgba(0, 0, 0, 0.5),
-0 50px 100px -30px rgba(184, 66, 15, 0.3);
+  background: var(--cream);
+  padding: 3rem 2.5rem;
+  border: 1px solid rgba(201, 166, 86, 0.5);
+  position: relative;
+  text-align: center;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.05),
+    0 30px 60px -15px rgba(0, 0, 0, 0.5),
+    0 50px 100px -30px rgba(184, 66, 15, 0.3);
 }
 
 .cta-card::before {
-content: '';
-position: absolute;
-inset: 8px;
-border: 1px solid rgba(184, 66, 15, 0.3);
-pointer-events: none;
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(184, 66, 15, 0.3);
+  pointer-events: none;
 }
 
 .cta-card .ornament {
-position: absolute;
-top: -16px;
-left: 50%;
-transform: translateX(-50%);
-background: var(--cream);
-padding: 0 1rem;
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 1.6rem;
-color: var(--saffron-deep);
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--cream);
+  padding: 0 1rem;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 1.6rem;
+  color: var(--saffron-deep);
 }
 
 .cta-card h3 {
-font-size: 1.7rem;
-margin-bottom: 0.6rem;
-font-weight: 500;
-color: var(--ink);
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+  color: var(--ink);
 }
 
 .cta-card .subtitle {
-font-style: italic;
-color: var(--ink-soft);
-margin-bottom: 2rem;
-font-size: 0.98rem;
-line-height: 1.5;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-bottom: 2rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
 
 .btn-whatsapp {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: 0.7rem;
-width: 100%;
-padding: 1.15rem 1.8rem;
-background: var(--whatsapp);
-color: #fff;
-border: none;
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.2rem;
-letter-spacing: 0.04em;
-font-weight: 600;
-cursor: pointer;
-transition: all 0.3s ease;
-text-decoration: none;
-position: relative;
-overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 1.15rem 1.8rem;
+  background: var(--whatsapp);
+  color: #fff;
+  border: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn-whatsapp::before {
-content: '';
-position: absolute;
-inset: 0;
-background: var(--whatsapp-deep);
-transform: translateY(100%);
-transition: transform 0.4s ease;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--whatsapp-deep);
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
 }
 
 .btn-whatsapp span, .btn-whatsapp svg {
-position: relative;
-z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .btn-whatsapp:hover::before { transform: translateY(0); }
@@ -339,16 +337,16 @@ z-index: 1;
 .btn-whatsapp svg { width: 22px; height: 22px; flex-shrink: 0; }
 
 .cta-disclaimer {
-font-size: 0.78rem;
-color: var(--ink-soft);
-margin-top: 1.2rem;
-font-style: italic;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-top: 1.2rem;
+  font-style: italic;
 }
 
 /* === STANDARD SECTIONS === */
 section.standard {
-padding: 6rem 2rem;
-position: relative;
+  padding: 6rem 2rem;
+  position: relative;
 }
 
 .container { max-width: 1100px; margin: 0 auto; }
@@ -356,32 +354,32 @@ position: relative;
 .section-header { text-align: center; margin-bottom: 4rem; }
 
 .section-header h2 {
-font-size: clamp(2rem, 4vw, 3.2rem);
-margin-top: 1.2rem;
-font-weight: 400;
-letter-spacing: -0.015em;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-top: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
 }
 
 .section-header h2 em { font-style: italic; color: var(--saffron-deep); }
 
 /* === CONTRAST === */
 .contrast-section {
-background: var(--maroon);
-color: var(--cream);
-position: relative;
-overflow: hidden;
+  background: var(--maroon);
+  color: var(--cream);
+  position: relative;
+  overflow: hidden;
 }
 
 .contrast-section::before {
-content: 'ॐ';
-position: absolute;
-top: -3rem;
-right: -2rem;
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 28rem;
-color: var(--saffron);
-opacity: 0.06;
-line-height: 1;
+  content: 'ॐ';
+  position: absolute;
+  top: -3rem;
+  right: -2rem;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 28rem;
+  color: var(--saffron);
+  opacity: 0.06;
+  line-height: 1;
 }
 
 .contrast-section h2, .contrast-section h3 { color: var(--cream); }
@@ -389,151 +387,151 @@ line-height: 1;
 .contrast-section .eyebrow::before, .contrast-section .eyebrow::after { background: var(--gold-soft); }
 
 .contrast-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 3rem;
-margin-top: 4rem;
-position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 4rem;
+  position: relative;
 }
 
 .contrast-grid::before {
-content: '';
-position: absolute;
-top: 0; bottom: 0; left: 50%;
-width: 1px;
-background: linear-gradient(to bottom, transparent, rgba(201, 166, 86, 0.4) 20%, rgba(201, 166, 86, 0.4) 80%, transparent);
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0; left: 50%;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, rgba(201, 166, 86, 0.4) 20%, rgba(201, 166, 86, 0.4) 80%, transparent);
 }
 
 .contrast-col h3 {
-font-size: 1.5rem;
-margin-bottom: 0.4rem;
-font-weight: 500;
-font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .contrast-col.wrong h3 { color: var(--gold-soft); }
 .contrast-col.right h3 { color: var(--saffron-bright); font-style: normal; }
 
 .contrast-tag {
-font-size: 0.7rem;
-letter-spacing: 0.3em;
-text-transform: uppercase;
-color: rgba(250, 245, 232, 0.5);
-margin-bottom: 0.5rem;
-display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(250, 245, 232, 0.5);
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 .contrast-pair {
-margin-top: 2.5rem;
-padding-top: 2rem;
-border-top: 1px dashed rgba(201, 166, 86, 0.2);
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px dashed rgba(201, 166, 86, 0.2);
 }
 
 .contrast-pair:first-of-type {
-margin-top: 1.5rem;
-padding-top: 0;
-border-top: none;
+  margin-top: 1.5rem;
+  padding-top: 0;
+  border-top: none;
 }
 
 .pronunciation-example {
-margin: 0.5rem 0 1.2rem;
-padding: 0.8rem 1.2rem;
-border-left: 2px solid;
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.6rem;
-font-style: italic;
+  margin: 0.5rem 0 1.2rem;
+  padding: 0.8rem 1.2rem;
+  border-left: 2px solid;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-style: italic;
 }
 
 .contrast-col.wrong .pronunciation-example {
-border-color: var(--gold);
-color: var(--gold-soft);
-text-decoration: line-through;
-text-decoration-color: rgba(201, 166, 86, 0.4);
+  border-color: var(--gold);
+  color: var(--gold-soft);
+  text-decoration: line-through;
+  text-decoration-color: rgba(201, 166, 86, 0.4);
 }
 
 .contrast-col.right .pronunciation-example {
-border-color: var(--saffron-bright);
-color: var(--cream);
-font-style: italic;
+  border-color: var(--saffron-bright);
+  color: var(--cream);
+  font-style: italic;
 }
 
 .contrast-col p {
-color: rgba(250, 245, 232, 0.82);
-font-size: 0.98rem;
-line-height: 1.7;
+  color: rgba(250, 245, 232, 0.82);
+  font-size: 0.98rem;
+  line-height: 1.7;
 }
 
 .contrast-col p strong, .contrast-col p em {
-color: var(--cream);
-font-weight: 600;
+  color: var(--cream);
+  font-weight: 600;
 }
 
 .contrast-conclusion {
-margin-top: 4rem;
-text-align: center;
-font-size: 1.4rem;
-font-family: 'Cormorant Garamond', serif;
-font-style: italic;
-color: var(--gold-soft);
-max-width: 760px;
-margin-left: auto;
-margin-right: auto;
-line-height: 1.5;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: var(--gold-soft);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
 
 .contrast-conclusion::before, .contrast-conclusion::after {
-content: '·';
-margin: 0 1rem;
-color: var(--saffron-bright);
+  content: '·';
+  margin: 0 1rem;
+  color: var(--saffron-bright);
 }
 
 /* === LIVE CONTENT === */
 .live-content { background: var(--parchment); }
 
 .lessons-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 0;
-margin-top: 3rem;
-border-top: 1px solid rgba(31, 20, 16, 0.2);
-border-left: 1px solid rgba(31, 20, 16, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(31, 20, 16, 0.2);
+  border-left: 1px solid rgba(31, 20, 16, 0.2);
 }
 
 .lesson {
-padding: 2.5rem;
-border-right: 1px solid rgba(31, 20, 16, 0.2);
-border-bottom: 1px solid rgba(31, 20, 16, 0.2);
-position: relative;
-background: var(--parchment);
-transition: background 0.3s ease;
+  padding: 2.5rem;
+  border-right: 1px solid rgba(31, 20, 16, 0.2);
+  border-bottom: 1px solid rgba(31, 20, 16, 0.2);
+  position: relative;
+  background: var(--parchment);
+  transition: background 0.3s ease;
 }
 
 .lesson:hover { background: var(--parchment-deep); }
 
 .lesson-number {
-font-family: 'Cormorant Garamond', serif;
-font-size: 3.5rem;
-font-style: italic;
-color: var(--saffron-deep);
-font-weight: 400;
-line-height: 1;
-margin-bottom: 1rem;
-display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-style: italic;
+  color: var(--saffron-deep);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .lesson h4 { font-size: 1.4rem; margin-bottom: 0.6rem; font-weight: 500; }
 .lesson h4 em {
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-style: normal;
-color: var(--saffron-deep);
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-style: normal;
+  color: var(--saffron-deep);
 }
 .lesson h4 small {
-display: block;
-font-size: 0.85rem;
-font-style: italic;
-color: var(--ink-soft);
-font-weight: 400;
-margin-top: 0.2rem;
+  display: block;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-weight: 400;
+  margin-top: 0.2rem;
 }
 .lesson p { color: var(--ink-soft); font-size: 1rem; line-height: 1.6; }
 
@@ -541,112 +539,112 @@ margin-top: 0.2rem;
 .expert-section { background: var(--cream); position: relative; }
 
 .expert-grid {
-display: grid;
-grid-template-columns: 0.85fr 1fr;
-gap: 4rem;
-align-items: start;
+  display: grid;
+  grid-template-columns: 0.85fr 1fr;
+  gap: 4rem;
+  align-items: start;
 }
 
 .expert-portrait {
-position: relative;
-aspect-ratio: 3/4;
-overflow: hidden;
-background: var(--maroon);
-box-shadow:
-0 30px 60px -20px rgba(31, 20, 16, 0.4),
-0 0 0 1px rgba(184, 66, 15, 0.2);
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  background: var(--maroon);
+  box-shadow:
+    0 30px 60px -20px rgba(31, 20, 16, 0.4),
+    0 0 0 1px rgba(184, 66, 15, 0.2);
 }
 
 .expert-portrait img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-display: block;
-filter: contrast(1.05) saturate(1.05);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: contrast(1.05) saturate(1.05);
 }
 
 .expert-portrait .frame {
-position: absolute;
-inset: 12px;
-border: 1px solid rgba(250, 245, 232, 0.4);
-pointer-events: none;
-z-index: 2;
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(250, 245, 232, 0.4);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .expert-portrait .caption {
-position: absolute;
-bottom: 24px;
-left: 24px;
-right: 24px;
-z-index: 2;
-color: var(--cream);
-font-size: 0.72rem;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-font-family: 'Cardo', serif;
-font-style: italic;
-opacity: 0.9;
-text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  z-index: 2;
+  color: var(--cream);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  opacity: 0.9;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
 
 .expert-content .name-line {
-font-size: 0.78rem;
-letter-spacing: 0.3em;
-text-transform: uppercase;
-color: var(--saffron);
-font-weight: 700;
-margin-bottom: 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 
 .expert-content h2 {
-font-size: clamp(2rem, 4vw, 3rem);
-margin-bottom: 0.5rem;
-font-weight: 400;
-line-height: 1.05;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.05;
 }
 
 .expert-content .sanskrit-name {
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 1.8rem;
-color: var(--saffron-deep);
-margin-bottom: 2rem;
-display: block;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 1.8rem;
+  color: var(--saffron-deep);
+  margin-bottom: 2rem;
+  display: block;
 }
 
 .expert-content p {
-margin-bottom: 1.2rem;
-color: var(--ink-soft);
-font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
 }
 
 .credentials {
-margin-top: 2.5rem;
-padding-top: 2rem;
-border-top: 1px solid rgba(31, 20, 16, 0.15);
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 1.5rem 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(31, 20, 16, 0.15);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1.5rem;
 }
 
 .credential .number {
-font-family: 'Cormorant Garamond', serif;
-font-size: 2.2rem;
-color: var(--saffron-deep);
-font-weight: 500;
-line-height: 1;
-font-style: italic;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  color: var(--saffron-deep);
+  font-weight: 500;
+  line-height: 1;
+  font-style: italic;
 }
 
 .credential .number.tradition-text {
-font-size: 1.5rem;
-line-height: 1.1;
+  font-size: 1.5rem;
+  line-height: 1.1;
 }
 
 .credential .text {
-font-size: 0.88rem;
-color: var(--ink-soft);
-margin-top: 0.4rem;
-line-height: 1.4;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin-top: 0.4rem;
+  line-height: 1.4;
 }
 
 /* === FOR WHOM === */
@@ -655,158 +653,157 @@ line-height: 1.4;
 .resonance-list { max-width: 820px; margin: 0 auto; list-style: none; counter-reset: item; }
 
 .resonance-list li {
-padding: 1.8rem 0 1.8rem 4rem;
-border-bottom: 1px solid rgba(31, 20, 16, 0.15);
-position: relative;
-font-size: 1.15rem;
-font-family: 'Cormorant Garamond', serif;
-font-weight: 400;
-font-style: italic;
-line-height: 1.5;
-color: var(--ink-soft);
+  padding: 1.8rem 0 1.8rem 4rem;
+  border-bottom: 1px solid rgba(31, 20, 16, 0.15);
+  position: relative;
+  font-size: 1.15rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--ink-soft);
 }
 
 .resonance-list li::before {
-content: counter(item, lower-roman) '.';
-counter-increment: item;
-position: absolute;
-left: 0;
-top: 1.85rem;
-font-family: 'Cormorant Garamond', serif;
-font-size: 1.05rem;
-color: var(--saffron-deep);
-font-style: normal;
-font-weight: 600;
-letter-spacing: 0.05em;
+  content: counter(item, lower-roman) '.';
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+  top: 1.85rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  color: var(--saffron-deep);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 .resonance-list li:first-child {
-padding-top: 1.8rem;
-border-top: 1px solid rgba(31, 20, 16, 0.15);
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(31, 20, 16, 0.15);
 }
 
 /* === FINAL CTA === */
 .final-cta {
-background: var(--ink-deep);
-color: var(--cream);
-text-align: center;
-position: relative;
-overflow: hidden;
+  background: var(--ink-deep);
+  color: var(--cream);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .final-cta::before {
-content: 'ॐ';
-position: absolute;
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 40rem;
-color: var(--saffron);
-opacity: 0.04;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-line-height: 1;
-pointer-events: none;
+  content: 'ॐ';
+  position: absolute;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 40rem;
+  color: var(--saffron);
+  opacity: 0.04;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+  pointer-events: none;
 }
 
 .final-cta .container { position: relative; z-index: 1; }
 
 .final-cta h2 {
-color: var(--cream);
-font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-font-weight: 400;
-margin-bottom: 1.5rem;
-font-style: italic;
+  color: var(--cream);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-style: italic;
 }
 
 .final-cta h2 em { color: var(--gold-soft); font-style: normal; }
 
 .final-cta .lede {
-font-size: 1.15rem;
-color: rgba(250, 245, 232, 0.75);
-max-width: 620px;
-margin: 0 auto 3rem;
-line-height: 1.6;
+  font-size: 1.15rem;
+  color: rgba(250, 245, 232, 0.75);
+  max-width: 620px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
 }
 
 .final-cta .cta-card {
-background: var(--cream);
-color: var(--ink);
-max-width: 520px;
-margin: 0 auto;
+  background: var(--cream);
+  color: var(--ink);
+  max-width: 520px;
+  margin: 0 auto;
 }
 
 .final-cta .cta-card h3 { color: var(--ink); }
 
 .mantra-bottom {
-margin-top: 3rem;
-font-family: 'Tiro Devanagari Sanskrit', serif;
-font-size: 1.4rem;
-color: var(--gold-soft);
-letter-spacing: 0.1em;
+  margin-top: 3rem;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 1.4rem;
+  color: var(--gold-soft);
+  letter-spacing: 0.1em;
 }
 
 .mantra-bottom-translit {
-display: block;
-font-family: 'Cormorant Garamond', serif;
-font-size: 0.95rem;
-font-style: italic;
-color: rgba(250, 245, 232, 0.5);
-margin-top: 0.5rem;
-letter-spacing: 0.15em;
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: rgba(250, 245, 232, 0.5);
+  margin-top: 0.5rem;
+  letter-spacing: 0.15em;
 }
 
 footer {
-padding: 2.5rem 2rem;
-text-align: center;
-background: var(--maroon-deep);
-color: rgba(250, 245, 232, 0.5);
-font-size: 0.85rem;
-font-style: italic;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: var(--maroon-deep);
+  color: rgba(250, 245, 232, 0.5);
+  font-size: 0.85rem;
+  font-style: italic;
 }
 
 /* === ANIMATIONS === */
 .fade-up {
-opacity: 0;
-transform: translateY(30px);
-transition: opacity 0.9s ease, transform 0.9s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
 }
 
 .fade-up.visible { opacity: 1; transform: translateY(0); }
 
 @keyframes pulse-glow {
-0%, 100% { opacity: 0.07; }
-50% { opacity: 0.12; }
+  0%, 100% { opacity: 0.07; }
+  50% { opacity: 0.12; }
 }
 
 .hero-devanagari { animation: pulse-glow 6s ease-in-out infinite; }
 
 /* === RESPONSIVE === */
 @media (max-width: 880px) {
-body { font-size: 17px; }
-header { padding: 1.2rem 1.3rem; flex-wrap: wrap; gap: 0.8rem; }
-.brand { font-size: 0.95rem; }
-.header-meta { font-size: 0.62rem; letter-spacing: 0.18em; }
-.hero { padding: 3rem 1.3rem 4rem; }
-.hero-grid { grid-template-columns: 1fr; gap: 3rem; }
-.hero-devanagari { font-size: 16rem; right: -4rem; opacity: 0.05; }
-.hero-sub { font-size: 1.25rem; }
-section.standard { padding: 4rem 1.3rem; }
-.live-meta { flex-direction: column; gap: 1.2rem; }
-.contrast-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-.contrast-grid::before { display: none; }
-.contrast-col { padding-bottom: 2rem; border-bottom: 1px solid rgba(201, 166, 86, 0.2); }
-.contrast-col:last-child { border-bottom: none; }
-.lessons-grid { grid-template-columns: 1fr; }
-.expert-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-.expert-portrait { max-width: 320px; margin: 0 auto; }
-.credentials { grid-template-columns: 1fr; }
-.cta-card { padding: 2.2rem 1.5rem; }
-.resonance-list li { padding-left: 2.5rem; font-size: 1.05rem; }
+  body { font-size: 17px; }
+  header { padding: 1.2rem 1.3rem; flex-wrap: wrap; gap: 0.8rem; }
+  .brand { font-size: 0.95rem; }
+  .header-meta { font-size: 0.62rem; letter-spacing: 0.18em; }
+  .hero { padding: 3rem 1.3rem 4rem; }
+  .hero-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .hero-devanagari { font-size: 16rem; right: -4rem; opacity: 0.05; }
+  .hero-sub { font-size: 1.25rem; }
+  section.standard { padding: 4rem 1.3rem; }
+  .live-meta { flex-direction: column; gap: 1.2rem; }
+  .contrast-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .contrast-grid::before { display: none; }
+  .contrast-col { padding-bottom: 2rem; border-bottom: 1px solid rgba(201, 166, 86, 0.2); }
+  .contrast-col:last-child { border-bottom: none; }
+  .lessons-grid { grid-template-columns: 1fr; }
+  .expert-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .expert-portrait { max-width: 320px; margin: 0 auto; }
+  .credentials { grid-template-columns: 1fr; }
+  .cta-card { padding: 2.2rem 1.5rem; }
+  .resonance-list li { padding-left: 2.5rem; font-size: 1.05rem; }
 }
 
 ::selection { background: var(--saffron); color: var(--cream); }
 </style>
-
 </head>
 <body>
 
@@ -823,55 +820,52 @@ section.standard { padding: 4rem 1.3rem; }
   <section class="hero">
     <div class="hero-devanagari">अ</div>
 
-```
-<div class="hero-grid">
-  <div class="hero-content">
-    <span class="eyebrow left">Aula Ao Vivo · Gratuita</span>
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="eyebrow left">Aula Ao Vivo · Gratuita</span>
 
-    <h1>
-      Da repetição automática imprecisa à pronúncia autônoma de um <em>sânscrito impecável</em>.
-    </h1>
+        <h1>
+          Da repetição automática imprecisa à pronúncia autônoma de um <em>sânscrito impecável</em>.
+        </h1>
 
-    <p class="hero-sub">
-      Consciente, preciso e transformador.
-    </p>
+        <p class="hero-sub">
+          Consciente, preciso e transformador.
+        </p>
 
-    <p class="hero-lede">
-      Uma aula ao vivo onde a pronúncia deixa de ser um detalhe técnico e se revela como a base que sustenta toda a prática mântrica.
-    </p>
+        <p class="hero-lede">
+          Uma aula ao vivo onde a pronúncia deixa de ser um detalhe técnico e se revela como a base que sustenta toda a prática mântrica.
+        </p>
 
-    <div class="live-meta">
-      <div class="live-meta-item">
-        <div class="label">Data</div>
-        <div class="value"><strong>21</strong> de Maio</div>
+        <div class="live-meta">
+          <div class="live-meta-item">
+            <div class="label">Data</div>
+            <div class="value"><strong>21</strong> de Maio</div>
+          </div>
+          <div class="live-meta-item">
+            <div class="label">Horário</div>
+            <div class="value"><strong>19:30</strong> · Brasília</div>
+          </div>
+          <div class="live-meta-item">
+            <div class="label">Onde</div>
+            <div class="value">Ao vivo · Zoom</div>
+          </div>
+        </div>
       </div>
-      <div class="live-meta-item">
-        <div class="label">Horário</div>
-        <div class="value"><strong>19:30</strong> · Brasília</div>
-      </div>
-      <div class="live-meta-item">
-        <div class="label">Onde</div>
-        <div class="value">Ao vivo · Zoom</div>
+
+      <div class="cta-card">
+        <span class="ornament">ॐ</span>
+        <h3>Reserve sua presença</h3>
+        <p class="subtitle">Entre no grupo do WhatsApp e receba o link da aula no dia.</p>
+
+        <a href="https://chat.whatsapp.com/Ix14cunJIg0FUi9x3Qqvdt?mode=gi_t" target="_blank" rel="noopener" class="btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          <span>Entrar no grupo do WhatsApp</span>
+        </a>
+        <p class="cta-disclaimer">Vagas limitadas para garantir interação real durante a transmissão.</p>
       </div>
     </div>
-  </div>
-
-  <div class="cta-card">
-    <span class="ornament">ॐ</span>
-    <h3>Reserve sua presença</h3>
-    <p class="subtitle">Entre no grupo do WhatsApp e receba o link da aula no dia.</p>
-
-    <a href="https://chat.whatsapp.com/Ix14cunJIg0FUi9x3Qqvdt?mode=gi_t" target="_blank" rel="noopener" class="btn-whatsapp">
-      <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-      </svg>
-      <span>Entrar no grupo do WhatsApp</span>
-    </a>
-    <p class="cta-disclaimer">Vagas limitadas para garantir interação real durante a transmissão.</p>
-  </div>
-</div>
-```
-
   </section>
   </main>
 </div>
@@ -885,52 +879,49 @@ section.standard { padding: 4rem 1.3rem; }
       <h2>O som que você canta há anos pode estar <em>pela metade</em>.</h2>
     </div>
 
-```
-<div class="contrast-grid">
-  <div class="contrast-col wrong fade-up">
-    <span class="contrast-tag">como a maioria pronuncia</span>
-    <h3>aproximação fonética</h3>
+    <div class="contrast-grid">
+      <div class="contrast-col wrong fade-up">
+        <span class="contrast-tag">como a maioria pronuncia</span>
+        <h3>aproximação fonética</h3>
 
-    <div class="contrast-pair">
-      <div class="pronunciation-example">mandála</div>
-      <p>
-        Aprendido de ouvido, com fonemas substituídos pelos sons do português. O <strong>ṇ</strong> retroflexo vira "n" comum, o <strong>ḍ</strong> retroflexo vira "d" dental, e a vogal final é alongada como se fosse acento — quando na tradição ela é breve, e o peso silábico recai sobre o encontro consonantal precedido pela vogal curta.
-      </p>
+        <div class="contrast-pair">
+          <div class="pronunciation-example">mandála</div>
+          <p>
+            Aprendido de ouvido, com fonemas substituídos pelos sons do português. O <strong>ṇ</strong> retroflexo vira "n" comum, o <strong>ḍ</strong> retroflexo vira "d" dental, e a vogal final é alongada como se fosse acento — quando na tradição ela é breve, e o peso silábico recai sobre o encontro consonantal precedido pela vogal curta.
+          </p>
+        </div>
+
+        <div class="contrast-pair">
+          <div class="pronunciation-example">púdja</div>
+          <p>
+            A vogal <strong>ū</strong> é tratada como vogal breve qualquer, e o <strong>ā</strong> final perde sua duração. As duas vogais longas que estruturam a palavra desaparecem, e com elas o ritmo silábico que a tradição preservou.
+          </p>
+        </div>
+      </div>
+
+      <div class="contrast-col right fade-up">
+        <span class="contrast-tag">como a tradição preservou</span>
+        <h3>pronúncia refinada</h3>
+
+        <div class="contrast-pair">
+          <div class="pronunciation-example">Maṇḍala</div>
+          <p>
+            Retroflexas no lugar — <strong>ṇ</strong> e <strong>ḍ</strong> articulados com a língua tocando o palato. A vogal final breve, e o peso silábico recaindo sobre o encontro consonantal <strong>ṇḍ</strong> precedido pela vogal curta, como a prosódia sânscrita determina. A palavra revela seu <em>corpo sônico</em>.
+          </p>
+        </div>
+
+        <div class="contrast-pair">
+          <div class="pronunciation-example">Pūjā</div>
+          <p>
+            As duas vogais longas sustentadas — <strong>ū</strong> e <strong>ā</strong> — ocupam o tempo silábico que lhes pertence. O <strong>j</strong> palatal limpo, sem africação. A palavra deixa de ser três sons atropelados e se revela em sua arquitetura fonética: <em>oferenda em forma de som</em>.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="contrast-pair">
-      <div class="pronunciation-example">púdja</div>
-      <p>
-        A vogal <strong>ū</strong> é tratada como vogal breve qualquer, e o <strong>ā</strong> final perde sua duração. As duas vogais longas que estruturam a palavra desaparecem, e com elas o ritmo silábico que a tradição preservou.
-      </p>
-    </div>
-  </div>
-
-  <div class="contrast-col right fade-up">
-    <span class="contrast-tag">como a tradição preservou</span>
-    <h3>pronúncia refinada</h3>
-
-    <div class="contrast-pair">
-      <div class="pronunciation-example">Maṇḍala</div>
-      <p>
-        Retroflexas no lugar — <strong>ṇ</strong> e <strong>ḍ</strong> articulados com a língua tocando o palato. A vogal final breve, e o peso silábico recaindo sobre o encontro consonantal <strong>ṇḍ</strong> precedido pela vogal curta, como a prosódia sânscrita determina. A palavra revela seu <em>corpo sônico</em>.
-      </p>
-    </div>
-
-    <div class="contrast-pair">
-      <div class="pronunciation-example">Pūjā</div>
-      <p>
-        As duas vogais longas sustentadas — <strong>ū</strong> e <strong>ā</strong> — ocupam o tempo silábico que lhes pertence. O <strong>j</strong> palatal limpo, sem africação. A palavra deixa de ser três sons atropelados e se revela em sua arquitetura fonética: <em>oferenda em forma de som</em>.
-      </p>
-    </div>
-  </div>
-</div>
-
-<p class="contrast-conclusion fade-up">
-  Pronúncia precisa não é academicismo. É o que separa repetição mecânica de invocação mântrica.
-</p>
-```
-
+    <p class="contrast-conclusion fade-up">
+      Pronúncia precisa não é academicismo. É o que separa repetição mecânica de invocação mântrica.
+    </p>
   </div>
 </section>
 
@@ -941,34 +932,31 @@ section.standard { padding: 4rem 1.3rem; }
       <h2>Quatro <em>portais</em> para a recitação autônoma.</h2>
     </div>
 
-```
-<div class="lessons-grid">
-  <div class="lesson fade-up">
-    <span class="lesson-number">i.</span>
-    <h4>O mapa fonético da <em>varṇamālā</em><small>alfabeto Sânscrito</small></h4>
-    <p>Como os fonemas sânscritos estão organizados em uma arquitetura precisa — o sistema que sustenta toda recitação consciente na tradição mântrica.</p>
-  </div>
+    <div class="lessons-grid">
+      <div class="lesson fade-up">
+        <span class="lesson-number">i.</span>
+        <h4>O mapa fonético da <em>varṇamālā</em><small>alfabeto Sânscrito</small></h4>
+        <p>Como os fonemas sânscritos estão organizados em uma arquitetura precisa — o sistema que sustenta toda recitação consciente na tradição mântrica.</p>
+      </div>
 
-  <div class="lesson fade-up">
-    <span class="lesson-number">ii.</span>
-    <h4>Os erros que esvaziam a vibração</h4>
-    <p>As três armadilhas fonéticas que praticamente todo praticante ocidental cai — vogais longas, visarga e retroflexas — demonstradas ao vivo com palavras e mantras que você já recita.</p>
-  </div>
+      <div class="lesson fade-up">
+        <span class="lesson-number">ii.</span>
+        <h4>Os erros que esvaziam a vibração</h4>
+        <p>As três armadilhas fonéticas que praticamente todo praticante ocidental cai — vogais longas, visarga e retroflexas — demonstradas ao vivo com palavras e mantras que você já recita.</p>
+      </div>
 
-  <div class="lesson fade-up">
-    <span class="lesson-number">iii.</span>
-    <h4>Por que o som exato torna o mantra um corpo sônico</h4>
-    <p>O mantra como yantra sonoro: a engenharia vibracional preservada por mais de 3.000 anos de transmissão oral.</p>
-  </div>
+      <div class="lesson fade-up">
+        <span class="lesson-number">iii.</span>
+        <h4>Por que o som exato torna o mantra um corpo sônico</h4>
+        <p>O mantra como yantra sonoro: a engenharia vibracional preservada por mais de 3.000 anos de transmissão oral.</p>
+      </div>
 
-  <div class="lesson fade-up">
-    <span class="lesson-number">iv.</span>
-    <h4>O caminho do iniciante à autonomia</h4>
-    <p>A sequência progressiva — fonemas, sílabas, palavras, mantras inteiros — que leva quem nunca leu transliteração com rigor à recitação independente em poucas semanas de prática estruturada.</p>
-  </div>
-</div>
-```
-
+      <div class="lesson fade-up">
+        <span class="lesson-number">iv.</span>
+        <h4>O caminho do iniciante à autonomia</h4>
+        <p>A sequência progressiva — fonemas, sílabas, palavras, mantras inteiros — que leva quem nunca leu transliteração com rigor à recitação independente em poucas semanas de prática estruturada.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -981,40 +969,37 @@ section.standard { padding: 4rem 1.3rem; }
         <div class="caption">Vārāṇasī · às margens do Gaṅgā</div>
       </div>
 
-```
-  <div class="expert-content fade-up">
-    <div class="name-line">Quem conduz a aula</div>
-    <h2>Yuri D. Wolf</h2>
-    <span class="sanskrit-name devanagari">वामदेव शिव · Vāmadeva Śiva</span>
+      <div class="expert-content fade-up">
+        <div class="name-line">Quem conduz a aula</div>
+        <h2>Yuri D. Wolf</h2>
+        <span class="sanskrit-name devanagari">वामदेव शिव · Vāmadeva Śiva</span>
 
-    <p>
-      Estuda língua sânscrita e filosofias indianas desde 2015, com professores renomados. É praticante e estudante da tradição tântrica nepalesa, na qual deposita sua devoção.
-    </p>
-    <p>
-      Em 2018, graduou-se especialista em Nutrição Āyurvédica no requisitado Greens Ayurveda, no estado do Kerala, sul da Índia.
-    </p>
-    <p>
-      Ensina sânscrito desde 2017. Com didática espirituosa, profunda, leve e objetiva, já guiou mais de mil alunos a aprofundarem suas jornadas com sânscrito, āyurveda e filosofias indianas.
-    </p>
+        <p>
+          Estuda língua sânscrita e filosofias indianas desde 2015, com professores renomados. É praticante e estudante da tradição tântrica nepalesa, na qual deposita sua devoção.
+        </p>
+        <p>
+          Em 2018, graduou-se especialista em Nutrição Āyurvédica no requisitado Greens Ayurveda, no estado do Kerala, sul da Índia.
+        </p>
+        <p>
+          Ensina sânscrito desde 2017. Com didática espirituosa, profunda, leve e objetiva, já guiou mais de mil alunos a aprofundarem suas jornadas com sânscrito, āyurveda e filosofias indianas.
+        </p>
 
-    <div class="credentials">
-      <div class="credential">
-        <div class="number">+1.000</div>
-        <div class="text">alunos formados desde 2017</div>
-      </div>
-      <div class="credential">
-        <div class="number">10+</div>
-        <div class="text">anos imerso em sânscrito e tradição</div>
-      </div>
-      <div class="credential">
-        <div class="number tradition-text">Tradição Viva</div>
-        <div class="text">Professor, estudante e praticante da tradição viva da língua sânscrita</div>
+        <div class="credentials">
+          <div class="credential">
+            <div class="number">+1.000</div>
+            <div class="text">alunos formados desde 2017</div>
+          </div>
+          <div class="credential">
+            <div class="number">10+</div>
+            <div class="text">anos imerso em sânscrito e tradição</div>
+          </div>
+          <div class="credential">
+            <div class="number tradition-text">Tradição Viva</div>
+            <div class="text">Professor, estudante e praticante da tradição viva da língua sânscrita</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-```
-
   </div>
 </section>
 
@@ -1025,18 +1010,15 @@ section.standard { padding: 4rem 1.3rem; }
       <h2>Se algo aqui <em>ressoa</em> em você, esta aula é sua.</h2>
     </div>
 
-```
-<ol class="resonance-list">
-  <li class="fade-up">Se você já recitou um mantra sem a devida consciência sobre o que estava dizendo — e sentiu que a sua devoção merece mais do que isso.</li>
-  <li class="fade-up">Se a sua devoção está crescendo e você quer que cada sílaba que sai da sua boca seja oferenda consciente — não repetição automática.</li>
-  <li class="fade-up">Se você sente que a pronúncia errada está esvaziando a sua recitação — e quer aprender com quem passou anos imerso na tradição, nos textos e na prática viva do sânscrito.</li>
-  <li class="fade-up">Se você quer que a sua pūjā, sua meditação e sua recitação diária sejam habitadas por compreensão, precisão e intenção.</li>
-  <li class="fade-up">Se você já percebeu que pronunciar um mantra corretamente muda alguma coisa dentro de você — e quer entender, com rigor e cuidado, por quê isso acontece.</li>
-  <li class="fade-up">Se você quer recitar os nomes do Divino com a pronúncia, o ritmo e a intenção que a tradição preservou por milênios.</li>
-  <li class="fade-up">Se você sente, no fundo, que aprender a língua dos ṛṣis é um ato de amor ao Divino — e que para essa jornada você merece um guia à altura.</li>
-</ol>
-```
-
+    <ol class="resonance-list">
+      <li class="fade-up">Se você já recitou um mantra sem a devida consciência sobre o que estava dizendo — e sentiu que a sua devoção merece mais do que isso.</li>
+      <li class="fade-up">Se a sua devoção está crescendo e você quer que cada sílaba que sai da sua boca seja oferenda consciente — não repetição automática.</li>
+      <li class="fade-up">Se você sente que a pronúncia errada está esvaziando a sua recitação — e quer aprender com quem passou anos imerso na tradição, nos textos e na prática viva do sânscrito.</li>
+      <li class="fade-up">Se você quer que a sua pūjā, sua meditação e sua recitação diária sejam habitadas por compreensão, precisão e intenção.</li>
+      <li class="fade-up">Se você já percebeu que pronunciar um mantra corretamente muda alguma coisa dentro de você — e quer entender, com rigor e cuidado, por quê isso acontece.</li>
+      <li class="fade-up">Se você quer recitar os nomes do Divino com a pronúncia, o ritmo e a intenção que a tradição preservou por milênios.</li>
+      <li class="fade-up">Se você sente, no fundo, que aprender a língua dos ṛṣis é um ato de amor ao Divino — e que para essa jornada você merece um guia à altura.</li>
+    </ol>
   </div>
 </section>
 
@@ -1047,27 +1029,24 @@ section.standard { padding: 4rem 1.3rem; }
       Reserve sua presença na aula ao vivo. O encontro é único, gratuito, e pensado para te entregar o caminho real — não a versão diluída.
     </p>
 
-```
-<div class="cta-card fade-up">
-  <span class="ornament">ॐ</span>
-  <h3>Garanta sua vaga</h3>
-  <p class="subtitle">Te vejo ao vivo no dia 21 de Maio, às 19:30.</p>
+    <div class="cta-card fade-up">
+      <span class="ornament">ॐ</span>
+      <h3>Garanta sua vaga</h3>
+      <p class="subtitle">Te vejo ao vivo no dia 21 de Maio, às 19:30.</p>
 
-  <a href="https://chat.whatsapp.com/Ix14cunJIg0FUi9x3Qqvdt?mode=gi_t" target="_blank" rel="noopener" class="btn-whatsapp">
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-    </svg>
-    <span>Entrar no grupo do WhatsApp</span>
-  </a>
-  <p class="cta-disclaimer">Você receberá o link da aula direto no grupo, no dia da transmissão.</p>
-</div>
+      <a href="https://chat.whatsapp.com/Ix14cunJIg0FUi9x3Qqvdt?mode=gi_t" target="_blank" rel="noopener" class="btn-whatsapp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <span>Entrar no grupo do WhatsApp</span>
+      </a>
+      <p class="cta-disclaimer">Você receberá o link da aula direto no grupo, no dia da transmissão.</p>
+    </div>
 
-<div class="mantra-bottom fade-up">
-  ॐ नमः शिवाय
-  <span class="mantra-bottom-translit">Oṁ namaḥ śivāya</span>
-</div>
-```
-
+    <div class="mantra-bottom fade-up">
+      ॐ नमः शिवाय
+      <span class="mantra-bottom-translit">Oṁ namaḥ śivāya</span>
+    </div>
   </div>
 </section>
 
