@@ -36,23 +36,23 @@
   --whatsapp-deep: #1DA851;
 }
 
-- { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
 
 body {
-font-family: ‘Cardo’, Georgia, serif;
-background: var(–parchment);
-color: var(–ink);
+font-family: 'Cardo', Georgia, serif;
+background: var(--parchment);
+color: var(--ink);
 line-height: 1.65;
 font-size: 18px;
 overflow-x: hidden;
 }
 
 body::before {
-content: ‘’;
+content: '';
 position: fixed;
 inset: 0;
-background-image: url(“data:image/svg+xml,%3Csvg viewBox=‘0 0 200 200’ xmlns=‘http://www.w3.org/2000/svg’%3E%3Cfilter id=‘n’%3E%3CfeTurbulence type=‘fractalNoise’ baseFrequency=‘0.85’ numOctaves=‘3’ /%3E%3C/filter%3E%3Crect width=‘100%25’ height=‘100%25’ filter=‘url(%23n)’ opacity=‘0.4’/%3E%3C/svg%3E”);
+background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
 opacity: 0.35;
 pointer-events: none;
 z-index: 1;
@@ -62,21 +62,21 @@ mix-blend-mode: multiply;
 main { position: relative; z-index: 2; }
 
 h1, h2, h3, h4 {
-font-family: ‘Cormorant Garamond’, Georgia, serif;
+font-family: 'Cormorant Garamond', Georgia, serif;
 font-weight: 500;
 letter-spacing: -0.01em;
 line-height: 1.1;
-color: var(–ink);
+color: var(--ink);
 }
 
-.devanagari { font-family: ‘Tiro Devanagari Sanskrit’, serif; }
+.devanagari { font-family: 'Tiro Devanagari Sanskrit', serif; }
 
 .eyebrow {
-font-family: ‘Cardo’, serif;
+font-family: 'Cardo', serif;
 font-size: 0.78rem;
 letter-spacing: 0.32em;
 text-transform: uppercase;
-color: var(–saffron);
+color: var(--saffron);
 font-weight: 700;
 display: inline-flex;
 align-items: center;
@@ -84,10 +84,10 @@ gap: 1rem;
 }
 
 .eyebrow::before, .eyebrow::after {
-content: ‘’;
+content: '';
 width: 28px;
 height: 1px;
-background: var(–saffron);
+background: var(--saffron);
 }
 
 .eyebrow.left::before { display: none; }
@@ -97,17 +97,17 @@ background: var(–saffron);
 background:
 radial-gradient(ellipse at 25% 20%, rgba(217, 101, 30, 0.18) 0%, transparent 55%),
 radial-gradient(ellipse at 80% 90%, rgba(201, 166, 86, 0.08) 0%, transparent 50%),
-linear-gradient(180deg, var(–maroon) 0%, var(–ink-deep) 100%);
-color: var(–cream);
+linear-gradient(180deg, var(--maroon) 0%, var(--ink-deep) 100%);
+color: var(--cream);
 position: relative;
 overflow: hidden;
 }
 
 .hero-block::after {
-content: ‘’;
+content: '';
 position: absolute;
 inset: 0;
-background-image: url(“data:image/svg+xml,%3Csvg viewBox=‘0 0 200 200’ xmlns=‘http://www.w3.org/2000/svg’%3E%3Cfilter id=‘n’%3E%3CfeTurbulence type=‘fractalNoise’ baseFrequency=‘0.9’ numOctaves=‘2’/%3E%3C/filter%3E%3Crect width=‘100%25’ height=‘100%25’ filter=‘url(%23n)’ opacity=‘0.5’/%3E%3C/svg%3E”);
+background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
 opacity: 0.15;
 mix-blend-mode: overlay;
 pointer-events: none;
@@ -124,11 +124,11 @@ border-bottom: 1px solid rgba(201, 166, 86, 0.18);
 }
 
 .brand {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.05rem;
 font-weight: 600;
 letter-spacing: 0.18em;
-color: var(–cream);
+color: var(--cream);
 text-transform: uppercase;
 display: flex;
 align-items: center;
@@ -136,16 +136,16 @@ gap: 0.7rem;
 }
 
 .brand-mark {
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 1.5rem;
-color: var(–saffron-bright);
+color: var(--saffron-bright);
 letter-spacing: 0;
 }
 
 .brand-name em {
 font-style: italic;
 font-weight: 400;
-color: var(–gold-soft);
+color: var(--gold-soft);
 text-transform: none;
 letter-spacing: 0.05em;
 }
@@ -176,9 +176,9 @@ position: absolute;
 top: -2rem;
 right: -3rem;
 font-size: 26rem;
-color: var(–saffron);
+color: var(--saffron);
 opacity: 0.07;
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 line-height: 1;
 pointer-events: none;
 z-index: 0;
@@ -191,21 +191,21 @@ font-size: clamp(2.2rem, 4.8vw, 4.2rem);
 font-weight: 400;
 margin: 1.8rem 0 1.5rem;
 letter-spacing: -0.02em;
-color: var(–cream);
+color: var(--cream);
 line-height: 1.08;
 }
 
 .hero h1 em {
 font-style: italic;
-color: var(–saffron-bright);
+color: var(--saffron-bright);
 font-weight: 500;
 }
 
 .hero-sub {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.5rem;
 font-style: italic;
-color: var(–gold-soft);
+color: var(--gold-soft);
 margin: -0.5rem 0 1.5rem;
 line-height: 1.35;
 font-weight: 400;
@@ -238,14 +238,14 @@ font-weight: 700;
 }
 
 .live-meta-item .value {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.4rem;
-color: var(–cream);
+color: var(--cream);
 font-weight: 500;
 }
 
 .live-meta-item .value strong {
-color: var(–saffron-bright);
+color: var(--saffron-bright);
 font-weight: 600;
 font-size: 1.7rem;
 font-style: italic;
@@ -253,7 +253,7 @@ font-style: italic;
 
 /* === CTA CARD === */
 .cta-card {
-background: var(–cream);
+background: var(--cream);
 padding: 3rem 2.5rem;
 border: 1px solid rgba(201, 166, 86, 0.5);
 position: relative;
@@ -265,7 +265,7 @@ box-shadow:
 }
 
 .cta-card::before {
-content: ‘’;
+content: '';
 position: absolute;
 inset: 8px;
 border: 1px solid rgba(184, 66, 15, 0.3);
@@ -277,23 +277,23 @@ position: absolute;
 top: -16px;
 left: 50%;
 transform: translateX(-50%);
-background: var(–cream);
+background: var(--cream);
 padding: 0 1rem;
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 1.6rem;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 }
 
 .cta-card h3 {
 font-size: 1.7rem;
 margin-bottom: 0.6rem;
 font-weight: 500;
-color: var(–ink);
+color: var(--ink);
 }
 
 .cta-card .subtitle {
 font-style: italic;
-color: var(–ink-soft);
+color: var(--ink-soft);
 margin-bottom: 2rem;
 font-size: 0.98rem;
 line-height: 1.5;
@@ -306,10 +306,10 @@ justify-content: center;
 gap: 0.7rem;
 width: 100%;
 padding: 1.15rem 1.8rem;
-background: var(–whatsapp);
+background: var(--whatsapp);
 color: #fff;
 border: none;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.2rem;
 letter-spacing: 0.04em;
 font-weight: 600;
@@ -321,10 +321,10 @@ overflow: hidden;
 }
 
 .btn-whatsapp::before {
-content: ‘’;
+content: '';
 position: absolute;
 inset: 0;
-background: var(–whatsapp-deep);
+background: var(--whatsapp-deep);
 transform: translateY(100%);
 transition: transform 0.4s ease;
 }
@@ -340,7 +340,7 @@ z-index: 1;
 
 .cta-disclaimer {
 font-size: 0.78rem;
-color: var(–ink-soft);
+color: var(--ink-soft);
 margin-top: 1.2rem;
 font-style: italic;
 }
@@ -362,31 +362,31 @@ font-weight: 400;
 letter-spacing: -0.015em;
 }
 
-.section-header h2 em { font-style: italic; color: var(–saffron-deep); }
+.section-header h2 em { font-style: italic; color: var(--saffron-deep); }
 
 /* === CONTRAST === */
 .contrast-section {
-background: var(–maroon);
-color: var(–cream);
+background: var(--maroon);
+color: var(--cream);
 position: relative;
 overflow: hidden;
 }
 
 .contrast-section::before {
-content: ‘ॐ’;
+content: 'ॐ';
 position: absolute;
 top: -3rem;
 right: -2rem;
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 28rem;
-color: var(–saffron);
+color: var(--saffron);
 opacity: 0.06;
 line-height: 1;
 }
 
-.contrast-section h2, .contrast-section h3 { color: var(–cream); }
-.contrast-section .eyebrow { color: var(–gold-soft); }
-.contrast-section .eyebrow::before, .contrast-section .eyebrow::after { background: var(–gold-soft); }
+.contrast-section h2, .contrast-section h3 { color: var(--cream); }
+.contrast-section .eyebrow { color: var(--gold-soft); }
+.contrast-section .eyebrow::before, .contrast-section .eyebrow::after { background: var(--gold-soft); }
 
 .contrast-grid {
 display: grid;
@@ -397,7 +397,7 @@ position: relative;
 }
 
 .contrast-grid::before {
-content: ‘’;
+content: '';
 position: absolute;
 top: 0; bottom: 0; left: 50%;
 width: 1px;
@@ -411,8 +411,8 @@ font-weight: 500;
 font-style: italic;
 }
 
-.contrast-col.wrong h3 { color: var(–gold-soft); }
-.contrast-col.right h3 { color: var(–saffron-bright); font-style: normal; }
+.contrast-col.wrong h3 { color: var(--gold-soft); }
+.contrast-col.right h3 { color: var(--saffron-bright); font-style: normal; }
 
 .contrast-tag {
 font-size: 0.7rem;
@@ -439,21 +439,21 @@ border-top: none;
 margin: 0.5rem 0 1.2rem;
 padding: 0.8rem 1.2rem;
 border-left: 2px solid;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.6rem;
 font-style: italic;
 }
 
 .contrast-col.wrong .pronunciation-example {
-border-color: var(–gold);
-color: var(–gold-soft);
+border-color: var(--gold);
+color: var(--gold-soft);
 text-decoration: line-through;
 text-decoration-color: rgba(201, 166, 86, 0.4);
 }
 
 .contrast-col.right .pronunciation-example {
-border-color: var(–saffron-bright);
-color: var(–cream);
+border-color: var(--saffron-bright);
+color: var(--cream);
 font-style: italic;
 }
 
@@ -464,7 +464,7 @@ line-height: 1.7;
 }
 
 .contrast-col p strong, .contrast-col p em {
-color: var(–cream);
+color: var(--cream);
 font-weight: 600;
 }
 
@@ -472,9 +472,9 @@ font-weight: 600;
 margin-top: 4rem;
 text-align: center;
 font-size: 1.4rem;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-style: italic;
-color: var(–gold-soft);
+color: var(--gold-soft);
 max-width: 760px;
 margin-left: auto;
 margin-right: auto;
@@ -482,13 +482,13 @@ line-height: 1.5;
 }
 
 .contrast-conclusion::before, .contrast-conclusion::after {
-content: ‘·’;
+content: '·';
 margin: 0 1rem;
-color: var(–saffron-bright);
+color: var(--saffron-bright);
 }
 
 /* === LIVE CONTENT === */
-.live-content { background: var(–parchment); }
+.live-content { background: var(--parchment); }
 
 .lessons-grid {
 display: grid;
@@ -504,17 +504,17 @@ padding: 2.5rem;
 border-right: 1px solid rgba(31, 20, 16, 0.2);
 border-bottom: 1px solid rgba(31, 20, 16, 0.2);
 position: relative;
-background: var(–parchment);
+background: var(--parchment);
 transition: background 0.3s ease;
 }
 
-.lesson:hover { background: var(–parchment-deep); }
+.lesson:hover { background: var(--parchment-deep); }
 
 .lesson-number {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 3.5rem;
 font-style: italic;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 font-weight: 400;
 line-height: 1;
 margin-bottom: 1rem;
@@ -523,22 +523,22 @@ display: block;
 
 .lesson h4 { font-size: 1.4rem; margin-bottom: 0.6rem; font-weight: 500; }
 .lesson h4 em {
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-style: normal;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 }
 .lesson h4 small {
 display: block;
 font-size: 0.85rem;
 font-style: italic;
-color: var(–ink-soft);
+color: var(--ink-soft);
 font-weight: 400;
 margin-top: 0.2rem;
 }
-.lesson p { color: var(–ink-soft); font-size: 1rem; line-height: 1.6; }
+.lesson p { color: var(--ink-soft); font-size: 1rem; line-height: 1.6; }
 
 /* === EXPERT === */
-.expert-section { background: var(–cream); position: relative; }
+.expert-section { background: var(--cream); position: relative; }
 
 .expert-grid {
 display: grid;
@@ -551,7 +551,7 @@ align-items: start;
 position: relative;
 aspect-ratio: 3/4;
 overflow: hidden;
-background: var(–maroon);
+background: var(--maroon);
 box-shadow:
 0 30px 60px -20px rgba(31, 20, 16, 0.4),
 0 0 0 1px rgba(184, 66, 15, 0.2);
@@ -579,11 +579,11 @@ bottom: 24px;
 left: 24px;
 right: 24px;
 z-index: 2;
-color: var(–cream);
+color: var(--cream);
 font-size: 0.72rem;
 letter-spacing: 0.2em;
 text-transform: uppercase;
-font-family: ‘Cardo’, serif;
+font-family: 'Cardo', serif;
 font-style: italic;
 opacity: 0.9;
 text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
@@ -593,7 +593,7 @@ text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 font-size: 0.78rem;
 letter-spacing: 0.3em;
 text-transform: uppercase;
-color: var(–saffron);
+color: var(--saffron);
 font-weight: 700;
 margin-bottom: 0.8rem;
 }
@@ -606,16 +606,16 @@ line-height: 1.05;
 }
 
 .expert-content .sanskrit-name {
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 1.8rem;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 margin-bottom: 2rem;
 display: block;
 }
 
 .expert-content p {
 margin-bottom: 1.2rem;
-color: var(–ink-soft);
+color: var(--ink-soft);
 font-size: 1.05rem;
 }
 
@@ -629,9 +629,9 @@ gap: 1.5rem 1.5rem;
 }
 
 .credential .number {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 2.2rem;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 font-weight: 500;
 line-height: 1;
 font-style: italic;
@@ -644,13 +644,13 @@ line-height: 1.1;
 
 .credential .text {
 font-size: 0.88rem;
-color: var(–ink-soft);
+color: var(--ink-soft);
 margin-top: 0.4rem;
 line-height: 1.4;
 }
 
 /* === FOR WHOM === */
-.for-whom { background: var(–parchment); }
+.for-whom { background: var(--parchment); }
 
 .resonance-list { max-width: 820px; margin: 0 auto; list-style: none; counter-reset: item; }
 
@@ -659,22 +659,22 @@ padding: 1.8rem 0 1.8rem 4rem;
 border-bottom: 1px solid rgba(31, 20, 16, 0.15);
 position: relative;
 font-size: 1.15rem;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-weight: 400;
 font-style: italic;
 line-height: 1.5;
-color: var(–ink-soft);
+color: var(--ink-soft);
 }
 
 .resonance-list li::before {
-content: counter(item, lower-roman) ‘.’;
+content: counter(item, lower-roman) '.';
 counter-increment: item;
 position: absolute;
 left: 0;
 top: 1.85rem;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 1.05rem;
-color: var(–saffron-deep);
+color: var(--saffron-deep);
 font-style: normal;
 font-weight: 600;
 letter-spacing: 0.05em;
@@ -687,19 +687,19 @@ border-top: 1px solid rgba(31, 20, 16, 0.15);
 
 /* === FINAL CTA === */
 .final-cta {
-background: var(–ink-deep);
-color: var(–cream);
+background: var(--ink-deep);
+color: var(--cream);
 text-align: center;
 position: relative;
 overflow: hidden;
 }
 
 .final-cta::before {
-content: ‘ॐ’;
+content: 'ॐ';
 position: absolute;
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 40rem;
-color: var(–saffron);
+color: var(--saffron);
 opacity: 0.04;
 top: 50%;
 left: 50%;
@@ -711,14 +711,14 @@ pointer-events: none;
 .final-cta .container { position: relative; z-index: 1; }
 
 .final-cta h2 {
-color: var(–cream);
+color: var(--cream);
 font-size: clamp(2.2rem, 4.5vw, 3.5rem);
 font-weight: 400;
 margin-bottom: 1.5rem;
 font-style: italic;
 }
 
-.final-cta h2 em { color: var(–gold-soft); font-style: normal; }
+.final-cta h2 em { color: var(--gold-soft); font-style: normal; }
 
 .final-cta .lede {
 font-size: 1.15rem;
@@ -729,25 +729,25 @@ line-height: 1.6;
 }
 
 .final-cta .cta-card {
-background: var(–cream);
-color: var(–ink);
+background: var(--cream);
+color: var(--ink);
 max-width: 520px;
 margin: 0 auto;
 }
 
-.final-cta .cta-card h3 { color: var(–ink); }
+.final-cta .cta-card h3 { color: var(--ink); }
 
 .mantra-bottom {
 margin-top: 3rem;
-font-family: ‘Tiro Devanagari Sanskrit’, serif;
+font-family: 'Tiro Devanagari Sanskrit', serif;
 font-size: 1.4rem;
-color: var(–gold-soft);
+color: var(--gold-soft);
 letter-spacing: 0.1em;
 }
 
 .mantra-bottom-translit {
 display: block;
-font-family: ‘Cormorant Garamond’, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 0.95rem;
 font-style: italic;
 color: rgba(250, 245, 232, 0.5);
@@ -758,7 +758,7 @@ letter-spacing: 0.15em;
 footer {
 padding: 2.5rem 2rem;
 text-align: center;
-background: var(–maroon-deep);
+background: var(--maroon-deep);
 color: rgba(250, 245, 232, 0.5);
 font-size: 0.85rem;
 font-style: italic;
@@ -804,7 +804,7 @@ section.standard { padding: 4rem 1.3rem; }
 .resonance-list li { padding-left: 2.5rem; font-size: 1.05rem; }
 }
 
-::selection { background: var(–saffron); color: var(–cream); }
+::selection { background: var(--saffron); color: var(--cream); }
 </style>
 
 </head>
